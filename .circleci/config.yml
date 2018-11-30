@@ -24,4 +24,4 @@ jobs:
           command: |
             . venv/bin/activate
             flake8 --exclude=env* --statistics
-            pytest -v # -- cov=TODO
+            pytest -v # -- cov=TODO 
