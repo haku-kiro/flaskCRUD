@@ -22,6 +22,6 @@ jobs:
       - run:
           name: run tests
           command: |
-            . venv/bin/activate
+            . env/bin/activate
             flake8 --exclude=env* --statistics
             pytest -v # -- cov=TODO 
